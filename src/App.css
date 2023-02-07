@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  background-color: #0b552e;
+}
+
+
+.students-page {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.student-page-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.details-heading {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.add-btn {
+   width: 235px;
+   padding: 5px 15px;
+}
+
+.upper-form-control {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-floating {
+  width: 400px;
+  margin-right: 60px;
+}
+
+.add-student-form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+    margin: 70px;
+}
+
+.form-buttons {
+  display: flex;
+  flex-direction: row;
+  align-self: end;
+}
+
+.cancel-btn {
+  margin-right: 10px;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label {
+  transform: scale(.85) translateY(-2rem) translateX(0.15rem) !important;
+  color: #0b552e;
+  font-weight: 700;
+}
+
+.form-floating>.form-control:not(:placeholder-shown) {
+  padding-top: 0 ;
+  padding-bottom: 0 ;
+}
+
+.form-floating>label {
+  top: 15px !important;
+  left: 11px !important;
+  padding: 0 !important; 
+}
+
+input:focus, input.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+table {
+  background-color: #ea0b0b;
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  height: 70px;
+  border-bottom: 1px solid #9b49ff !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #0ad2aa;
+  min-height: 100vh;
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
